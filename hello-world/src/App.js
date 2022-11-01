@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+//import Greet from './components/Gtreet';
+import Message from './components/Message';
+// import WithoutJsx from './components/Without-Jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world, this is my first app in React Js 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Message />
+
+      {/* <Greet name="Leon"  heroName='Brue Lee'>
+        <p>You are Dev</p>
+        </Greet>
+      <Greet name="Lamar" heroName='Don Yen'>
+      <button>Send</button>
+        </Greet>
+        <Greet name="Amin" heroName='Jacky Chan'>
+      <button>View info</button>
+        </Greet>
+      <Welcome name="EF" heroName='Don Yen'/> 
+      <Welcome name="CD" heroName='Jacky'/> 
+      <Welcome name="Ab" heroName='Chan'/>  */}
+      {/* <WithoutJsx /> */}
     </div>
   );
 }
