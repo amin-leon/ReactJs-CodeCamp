@@ -31,10 +31,4 @@ const All=()=>
             </div>
         );
 }
- 
-ReactDOM.render(
-    <All />,
-    document.getElementById("root")
-);
-
 export default All;
