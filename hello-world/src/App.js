@@ -2,12 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 //import Greet from './components/Gtreet';
 import Message from './components/Message';
+import All from './components/Composing';
+
+
 // import WithoutJsx from './components/Without-Jsx';
 function App() {
   return (
     <div className="App">
       <Message />
-
       {/* <Greet name="Leon"  heroName='Brue Lee'>
         <p>You are Dev</p>
         </Greet>
@@ -22,7 +24,6 @@ function App() {
       <Welcome name="Ab" heroName='Chan'/>  */}
       {/* <WithoutJsx /> */}
     </div>
-  );
+  )
 }
-
 export default App;
