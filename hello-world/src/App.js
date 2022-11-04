@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-//import Greet from './components/Gtreet';
+import Greet from './components/Gtreet';
 import Message from './components/Message';
 //import All from './components/Composing';
 import Form from './components/Form';
 import Counter from './components/Counter';
-
-// import WithoutJsx from './components/Without-Jsx';
+import ClickFunction from './components/ClickFunction';
+import ListRenderingParent from './components/ListRenderingParent';
 function App() {
   return (
     <div className="App">
-      <Message />
+      {/* <Greet name="Leon"  heroName='Brue Lee' />
+      <Message /> */}
       {/* <All /> */}
-      <Form />
+      {/* <Form />
       <Counter />
-      {/* <Greet name="Leon"  heroName='Brue Lee'>
+      <ClickFunction /> */}
+      <ListRenderingParent />
+      {/* 
         <p>You are Dev</p>
         </Greet>
       <Greet name="Lamar" heroName='Don Yen'>
