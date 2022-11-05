@@ -19,7 +19,7 @@ function ListRenderingParent() {
             age:60,
         }
     ]
-    const AllParent=ParentDetails.map(parent =>(<Child parent={parent}/>))
+    const AllParent=ParentDetails.map(parent =>(<Child key={parent.id} parent={parent}/>))
 
   return (
     <div>

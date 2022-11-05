@@ -7,6 +7,10 @@ import Form from './components/Form';
 import Counter from './components/Counter';
 import ClickFunction from './components/ClickFunction';
 import ListRenderingParent from './components/ListRenderingParent';
+import StylingReact from './components/StylingReact';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +20,9 @@ function App() {
       {/* <Form />
       <Counter />
       <ClickFunction /> */}
-      <ListRenderingParent />
+      {/* <ListRenderingParent /> */}
+      <StylingReact />
+
       {/* 
         <p>You are Dev</p>
         </Greet>
