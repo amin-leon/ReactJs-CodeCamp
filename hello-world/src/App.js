@@ -3,7 +3,7 @@ import './App.css';
 import Greet from './components/Gtreet';
 import Message from './components/Message';
 //import All from './components/Composing';
-import Form from './components/Form';
+import Forms from './components/Forms';
 import Counter from './components/Counter';
 import ClickFunction from './components/ClickFunction';
 import ListRenderingParent from './components/ListRenderingParent';
@@ -22,6 +22,7 @@ function App() {
       <ClickFunction /> */}
       {/* <ListRenderingParent /> */}
       <StylingReact />
+      <Forms />
 
       {/* 
         <p>You are Dev</p>
