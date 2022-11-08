@@ -8,12 +8,17 @@ import Counter from './components/Counter';
 import ClickFunction from './components/ClickFunction';
 import ListRenderingParent from './components/ListRenderingParent';
 import StylingReact from './components/StylingReact';
+import LifecycleA from './components/LifecycleA';
+import CounterNumbers from './components/CounterNumbers'
+import HoverCounter from './components/HoverCounter'
+
 
 
 
 function App() {
   return (
     <div className="App">
+      
       {/* <Greet name="Leon"  heroName='Brue Lee' />
       <Message /> */}
       {/* <All /> */}
@@ -21,8 +26,8 @@ function App() {
       <Counter />
       <ClickFunction /> */}
       {/* <ListRenderingParent /> */}
-      <StylingReact />
-      <Forms />
+      {/* <StylingReact />
+      <Forms /> */}
 
       {/* 
         <p>You are Dev</p>
@@ -37,6 +42,9 @@ function App() {
       <Welcome name="CD" heroName='Jacky'/> 
       <Welcome name="Ab" heroName='Chan'/>  
       <WithoutJsx /> */}
+      {/* <LifecycleA favColor={'Indigo'}/> */}
+      <CounterNumbers />
+      <HoverCounter />
     </div>
   )
 }
