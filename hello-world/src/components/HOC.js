@@ -15,7 +15,7 @@ const updateComponent = (orginalComponent) =>{
               })
               }
        render(){
-        return <orginalComponent count={this.state.count}  clickToincrease={this.clickToincrease}/>
+        return <orginalComponent count={this.state.count}  clickToincrease={this.clickToincrease} />
        }
     }
     return newComponent

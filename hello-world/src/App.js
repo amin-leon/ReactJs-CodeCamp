@@ -11,6 +11,11 @@ import StylingReact from './components/StylingReact';
 import LifecycleA from './components/LifecycleA';
 import CounterNumbers from './components/CounterNumbers'
 import HoverCounter from './components/HoverCounter'
+import ClickTwo from './components/ClickTwo';
+import HoverTwo from './components/HoverTwo';
+import { UserProvider } from './components/CompentsParent';
+import ComponentA from './components/ComponentA';
+import ReactHTTP from './components/ReactHTTP';
 
 
 
@@ -23,7 +28,7 @@ function App() {
       <Message /> */}
       {/* <All /> */}
       {/* <Form />
-      <Counter />
+      
       <ClickFunction /> */}
       {/* <ListRenderingParent /> */}
       {/* <StylingReact />
@@ -42,9 +47,21 @@ function App() {
       <Welcome name="CD" heroName='Jacky'/> 
       <Welcome name="Ab" heroName='Chan'/>  
       <WithoutJsx /> */}
-      {/* <LifecycleA favColor={'Indigo'}/> */}
-      <CounterNumbers />
-      <HoverCounter />
+      {/* <LifecycleA favColor={'Indigo'}/> */} 
+      {/* <ClickTwo />
+      <HoverTwo />
+      <Counter /> */}
+      {/* <Counter render={(count, clickToincrease) =>(
+      <ClickTwo count={count} clickToincrease={clickToincrease}/>)
+      }/>
+
+<Counter render={(count, clickToincrease) =>(
+      <HoverTwo count={count} clickToincrease={clickToincrease}/>)
+      }/> */}
+      {/* <UserProvider value="Leon">
+        <ComponentA  />
+      </UserProvider> */}
+      <ReactHTTP />
     </div>
   )
 }
