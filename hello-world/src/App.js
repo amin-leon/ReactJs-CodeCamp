@@ -16,6 +16,7 @@ import HoverTwo from './components/HoverTwo';
 import { UserProvider } from './components/CompentsParent';
 import ComponentA from './components/ComponentA';
 import ReactHTTP from './components/ReactHTTP';
+import ReactHTTP2 from './components/ReactHTTP2';
 
 
 
@@ -61,7 +62,8 @@ function App() {
       {/* <UserProvider value="Leon">
         <ComponentA  />
       </UserProvider> */}
-      <ReactHTTP />
+      {/* <ReactHTTP /> */}
+      <ReactHTTP2 />
     </div>
   )
 }
