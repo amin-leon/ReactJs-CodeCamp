@@ -17,6 +17,10 @@ import { UserProvider } from './components/CompentsParent';
 import ComponentA from './components/ComponentA';
 import ReactHTTP from './components/ReactHTTP';
 import ReactHTTP2 from './components/ReactHTTP2';
+import HooksUseState from './components/HooksUseState';
+import HooksUseState2 from './components/HooksUseState2';
+import HooksUseState3 from './components/HooksUseState3';
+import HooksUseState4 from './components/HooksUseState4';
 
 
 
@@ -63,7 +67,11 @@ function App() {
         <ComponentA  />
       </UserProvider> */}
       {/* <ReactHTTP /> */}
-      <ReactHTTP2 />
+      {/* <ReactHTTP2 /> */}
+      <HooksUseState />
+      <HooksUseState2 />
+      <HooksUseState3 />
+      <HooksUseState4 />
     </div>
   )
 }
