@@ -21,6 +21,8 @@ import HooksUseState from './components/HooksUseState';
 import HooksUseState2 from './components/HooksUseState2';
 import HooksUseState3 from './components/HooksUseState3';
 import HooksUseState4 from './components/HooksUseState4';
+import HooksUseContext from './components/HooksUseContext';
+import Component1 from './components/HooksUseContext';
 
 
 
@@ -68,10 +70,11 @@ function App() {
       </UserProvider> */}
       {/* <ReactHTTP /> */}
       {/* <ReactHTTP2 /> */}
-      <HooksUseState />
+      {/* <HooksUseState />
       <HooksUseState2 />
       <HooksUseState3 />
-      <HooksUseState4 />
+      <HooksUseState4 /> */}
+      <Component1 />
     </div>
   )
 }
